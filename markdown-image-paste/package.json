@@ -1,0 +1,102 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/r2/0r4y1j1940sfq7g_ghh53s0r0000gn/T/d-118126-2411-96uzi8.tr0f4m42t9/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/r2/0r4y1j1940sfq7g_ghh53s0r0000gn/T/d-118126-2411-96uzi8.tr0f4m42t9/package.tgz",
+        "spec": "/private/var/folders/r2/0r4y1j1940sfq7g_ghh53s0r0000gn/T/d-118126-2411-96uzi8.tr0f4m42t9/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/r2/0r4y1j1940sfq7g_ghh53s0r0000gn/T/apm-install-dir-118126-2411-1yp8pse.v2fbmuc8fr"
+    ]
+  ],
+  "_from": "../d-118126-2411-96uzi8.tr0f4m42t9/package.tgz",
+  "_id": "markdown-image-paste@2.5.2",
+  "_inCache": true,
+  "_location": "/markdown-image-paste",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/r2/0r4y1j1940sfq7g_ghh53s0r0000gn/T/d-118126-2411-96uzi8.tr0f4m42t9/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/r2/0r4y1j1940sfq7g_ghh53s0r0000gn/T/d-118126-2411-96uzi8.tr0f4m42t9/package.tgz",
+    "spec": "/private/var/folders/r2/0r4y1j1940sfq7g_ghh53s0r0000gn/T/d-118126-2411-96uzi8.tr0f4m42t9/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-118126-2411-96uzi8.tr0f4m42t9/package.tgz",
+  "_shasum": "e80a35c02cf14b85c2f9722ef0be98ded2be7090",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/r2/0r4y1j1940sfq7g_ghh53s0r0000gn/T/d-118126-2411-96uzi8.tr0f4m42t9/package.tgz",
+  "_where": "/private/var/folders/r2/0r4y1j1940sfq7g_ghh53s0r0000gn/T/apm-install-dir-118126-2411-1yp8pse.v2fbmuc8fr",
+  "bugs": {
+    "url": "https://github.com/nmecad/markdown-img-paste/issues"
+  },
+  "configSchema": {
+    "use_subfolder": {
+      "type": "boolean",
+      "default": false,
+      "title": "Save images in subfolder",
+      "description": "If checked the images will be saved in a subfolder. You can either set your own folder or choose from the presets",
+      "order": 10
+    },
+    "subfolder": {
+      "type": "string",
+      "default": "",
+      "title": "Subfolder  for the images",
+      "description": "",
+      "order": 20
+    },
+    "firstLetterLowerCase": {
+      "type": "boolean",
+      "default": true,
+      "title": "First letter",
+      "description": "If checked the first letter of the filename will always be lowercase",
+      "order": 120
+    },
+    "ignoreMulUperCase": {
+      "type": "boolean",
+      "default": true,
+      "title": "Multiple upper Case",
+      "description": "If checked words where the second letter is uppercase won't be put in the normal camelCase. This means all letters being Uppercase will stay that way if the second letter is Uppercase",
+      "order": 110
+    },
+    "automaticCamelCase": {
+      "type": "boolean",
+      "default": true,
+      "title": "Automatic camelCase",
+      "description": "The name of the imagefile will automatically be put into to camelCase. The first letter afert a space will be written in uppercas. The first letter of the filename will depend on the setting `First Letter`",
+      "order": 100
+    }
+  },
+  "dependencies": {},
+  "description": "Just use 'ctrl+v' paste image into markdown",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/nmecad/markdown-img-paste#readme",
+  "keywords": [
+    "markdown",
+    "md",
+    "image",
+    "paste"
+  ],
+  "license": "MIT",
+  "main": "./lib/markdown-img-paste",
+  "name": "markdown-image-paste",
+  "optionalDependencies": {},
+  "readme": "# Markdown-img-paste\n\n## Usage\n1. Take a screenshot or copy a image\n2. Go to a new (empty) line\n2. Write the filename you want the image saved under into that empty line\n3. hit `ctrl+v` to paste image into the markdown or rst file\n1. The replacement text (in casethe image can't be found) will be the text you wrote, the filename will be the text you wrote without spaces\n\nBy default, the image will store in current directory. But you can change this under settings:\n\n## Setting\n\n### Enable plugin only in markdown files\n\nIf not, you can paste markdown images in any file.\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nmecad/markdown-img-paste.git"
+  },
+  "version": "2.5.2"
+}
